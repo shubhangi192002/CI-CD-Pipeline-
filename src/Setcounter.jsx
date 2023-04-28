@@ -22,7 +22,7 @@ export default function Setcounter() {
 
   return (
     <>
-      <h1>Count: {count}</h1>
+      <h1>Counter: {count}</h1>
       <div className='btn'>
         <button onClick={decreaseCount}>-</button>
         <button onClick={increaseCount}>+</button>
